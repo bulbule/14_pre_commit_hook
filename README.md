@@ -1,8 +1,9 @@
 # Quadratic Equations Solver
+This repo contains a script `quadratic_equation.py` that solves quadratic equation in real numbers as well as the `tests.py` to it.
+When commiting a new version of `quadratic_equation.py` it is possible to run the `tests.py` automatically. If the tests break, the commit will not take place. To do that, one needs to add the file `pre-commit` into `./git/hooks`.
 
-[TODO. There will be project description]
 # Usage
-
+The example shows that in the current form `quadratic_equation.py` does not comply with our tests and an error occur when trying to commit.
 ```#!bash
 $ git commit -m "initial commit"
 .E..
